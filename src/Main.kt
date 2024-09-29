@@ -33,4 +33,5 @@ fun main() {
     for ((index,value) in (1..10).withIndex()){
         println("$index : $value")
     }
+
 }
