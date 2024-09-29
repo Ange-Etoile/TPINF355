@@ -9,10 +9,10 @@
 //     deuxieme methode
 //
 //}
-open class Person( open val name:String, open protected val age : Int){
+open class Person(val name:String,protected val age : Int){
     constructor( name: String) : this(name, 0)
     constructor() : this("etoile")
-    fun salutation(){
+    open fun salutation(){
         println("$name vous dit bonjour")
     }
 
